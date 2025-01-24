@@ -1,13 +1,11 @@
-package com.alura.hub;
+package api.com.hub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HubApplication {
-
+public class ChallengeForoHubApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(HubApplication.class, args);
+		SpringApplication.run(ChallengeForoHubApplication.class, args);
 	}
-
 }
